@@ -1,0 +1,42 @@
+*{
+   margin: 0ch;
+   padding: 0ch; 
+}
+body{
+    align-items: center;
+}
+
+button {  
+width: 86px;  
+background-color: rgb(205, 7, 17);  
+color: white;  
+border: 3px solid gray;  
+    border-radius: 5px;  
+    padding: 26px;  
+    margin: 5px;  
+    font-size: 15px; 
+    text-align: center; 
+    align-content: center;
+    
+}  
+.container
+{  
+width: 300px;  
+height: 650px;  
+margin: auto;  
+border: 3px solid rgb(14, 146, 198);  
+border-radius: 5px;  
+padding: 20px;  
+}  
+#input{  
+    width: 250px;  
+    border: 5px solid black;  
+        border-radius: 3px;  
+        padding: 20px;  
+        margin: auto;  
+        background-color: burlywood;
+    }  
+
+#btnClear{
+    width: 286px;  
+}

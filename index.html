@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input val">    
+            <input type="text" id="input"></input><br>
+        </div>
+        <div class="btn">
+            <button value="ON" id="btnON" onclick="on()">ON</button>
+            <button value="OFF" id="btnOFF" onclick="off()">OFF</button>
+            <button value="0" id="btn0" onclick="disVal(0)">0</button>
+            <button value="1" id="btn1" onclick="disVal(1)">1</button>
+            <button value="2" id="btn2" onclick="disVal(2)">2</button>
+            <button value="3" id="btn3" onclick="disVal(3)">3</button>
+            <button value="4" id="btn4" onclick="disVal(4)">4</button>
+            <button value="5" id="btn5" onclick="disVal(5)">5</button>
+            <button value="6" id="btn6" onclick="disVal(6)">6</button>
+            <button value="7" id="btn7" onclick="disVal(7)">7</button>
+            <button value="8" id="btn8" onclick="disVal(8)">8</button>
+            <button value="9" id="btn9" onclick="disVal(9)">9</button>
+            <button value="+" id="btn+" onclick="disVal('+')">+</button>
+            <button value="-" id="btn-" onclick="disVal('-')">-</button>
+            <button value="*" id="btn*" onclick="disVal('*')">*</button>
+            <button value="/" id="btn/" onclick="disVal('/')">/</button>
+            <button value="%" id="btn%" onclick="disVal('%')">%</button>
+            <button value="%" id="btn=" onclick="calculate()">=</button>
+            <button value="0" id="btnClear" onclick="clearit()">Clear</button>
+        </div>
+    </div>    
+    <script src="index.js"></script>
+</body>
+</html>
